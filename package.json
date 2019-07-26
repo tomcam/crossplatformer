@@ -1,14 +1,17 @@
 {
-  "name": “crossplatformer”,
+  "name": "crossplatformer",
   "version": "1.0.0",
-  "description": “Cross platform and mobile cross platform software development”,
+  "description": "Cross platform and mobile cross platform software development",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomcam/crossplatformer.git"
   },
+   "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
   "author": "Tom Campbell <tomcampbell@gmail.com>",
-  "license": “GPL 3.0”,
+  "license": "GPL 3.0",
   "private": true,
   "scripts": {                                                                  
     "docs:dev": "vuepress dev docs",
